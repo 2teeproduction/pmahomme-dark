@@ -150,12 +150,15 @@ if (! defined('PHPMYADMIN') && ! defined('TESTSUITE')) {
 }
 #pma_navigation_tree li.activePointer {
 	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
-	background-color: #808080;
+	background-color: #282a2f;
 	<!-- background-color: <php echo $GLOBALS['cfg']['NaviPointerBackground']; ?>; -->
 }
 #pma_navigation_tree li.selected {
 	color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
-	background-color: <?php echo $GLOBALS['cfg']['NaviPointerBackground']; ?>;
+	background-color: #282a2f;
+	font-weight:bolder;
+	<!-- background-color: <php echo $GLOBALS['cfg']['NaviPointerBackground']; ?>; -->
+
 }
 #pma_navigation_tree li .dbItemControls {
 	padding-left: 4px;
