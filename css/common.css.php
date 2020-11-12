@@ -113,7 +113,7 @@ a:active,
 button.mult_submit,
 .checkall_box+label {
 	text-decoration: none;
-	color: #2196F3;
+	color: #fff;
 	cursor: pointer;
 	outline: none;
 
@@ -530,6 +530,9 @@ div.tools {
 }
 
 div.tools a {
+	color: #ececec !important;
+}
+div.tools a:hover {
 	color: #2196F3 !important;
 }
 
