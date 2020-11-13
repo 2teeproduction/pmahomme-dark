@@ -16,4 +16,4 @@ thaomaniac_note
 
 change support version in theme.json
 
-copy folder to /user/share/phpmyadmin/themes
+copy folder to /usr/share/phpmyadmin/themes
